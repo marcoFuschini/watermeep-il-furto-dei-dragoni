@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"8e1942e39284ed7c","type":"text","text":"# Capitolo1\n# Un amico nei guai","x":-665,"y":-400,"width":950,"height":140},
+		{"id":"ede9631e70d91bc0","type":"text","text":"[[1 - Approcci tra PG al portale spalancato]]","x":-665,"y":-180,"width":250,"height":80},
+		{"id":"6277fed25eae10e5","type":"text","text":"[[3 - Troll fuori dal pozzo]]","x":-665,"y":60,"width":250,"height":60},
+		{"id":"50d761979fb48e92","type":"text","text":"4 - Volo assolda i giocatori per trovare Floon","x":-665,"y":180,"width":250,"height":109},
+		{"id":"23f1b538d83097ca","type":"text","text":"[[2 - Rissa al portale spalancato]]","x":-665,"y":-49,"width":250,"height":60},
+		{"id":"062bff080e9c7bb9","type":"text","text":"6.5 - Incontro con la vigilanza","x":-40,"y":-19,"width":250,"height":60},
+		{"id":"e0a2f99dbb2ae91b","type":"text","text":"Ogni colonna è una \"room\" della struttura [[5 room dungeon]]","x":-960,"y":-79,"width":250,"height":121,"color":"2"},
+		{"id":"97eef0041e26b022","type":"text","text":"# Capitolo 2\n# Vicolo teschio di troll","x":-665,"y":360,"width":950,"height":131},
+		{"id":"0a5fd89572dcc856","type":"text","text":"[[5 - Ricerca al quartiere del porto]]","x":-360,"y":-180,"width":230,"height":130},
+		{"id":"7b3ef374f5d793a1","type":"text","text":"[[6 - Nascondiglio Zhentarim]]","x":-40,"y":-180,"width":250,"height":130},
+		{"id":"d6acbb3cf4f9bdf8","type":"text","text":"[[7 - Nascondiglio nelle fognature]]","x":285,"y":-180,"width":250,"height":60},
+		{"id":"f4120affaa1b9bc3","type":"text","text":"8 - Ritorno da Volo","x":620,"y":-180,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"4c2093e9808dc2bb","fromNode":"8e1942e39284ed7c","fromSide":"bottom","toNode":"ede9631e70d91bc0","toSide":"top"},
+		{"id":"c80a9c9b5b3ce770","fromNode":"ede9631e70d91bc0","fromSide":"bottom","toNode":"23f1b538d83097ca","toSide":"top"},
+		{"id":"bc80dabd7d96c06c","fromNode":"23f1b538d83097ca","fromSide":"bottom","toNode":"6277fed25eae10e5","toSide":"top"},
+		{"id":"e0337ed43764df94","fromNode":"6277fed25eae10e5","fromSide":"bottom","toNode":"50d761979fb48e92","toSide":"top"},
+		{"id":"02a5c7da11ab8fa0","fromNode":"50d761979fb48e92","fromSide":"right","toNode":"0a5fd89572dcc856","toSide":"bottom"},
+		{"id":"3c20d537fb077dfc","fromNode":"0a5fd89572dcc856","fromSide":"right","toNode":"7b3ef374f5d793a1","toSide":"left"},
+		{"id":"acfa77b488d0892f","fromNode":"7b3ef374f5d793a1","fromSide":"bottom","toNode":"062bff080e9c7bb9","toSide":"top"},
+		{"id":"44501ec7e9185575","fromNode":"062bff080e9c7bb9","fromSide":"right","toNode":"d6acbb3cf4f9bdf8","toSide":"left"},
+		{"id":"92faa89aa0e3ed85","fromNode":"d6acbb3cf4f9bdf8","fromSide":"right","toNode":"f4120affaa1b9bc3","toSide":"left"},
+		{"id":"ccf86539c5217f97","fromNode":"f4120affaa1b9bc3","fromSide":"bottom","toNode":"97eef0041e26b022","toSide":"top"}
+	]
+}

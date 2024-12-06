@@ -18,7 +18,11 @@
     "format": "npx prettier . --write",
     "test": "tsx ./quartz/util/path.test.ts && tsx ./quartz/depgraph.test.ts",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
-    "sync": "npx quartz sync --no-pull"
+    "sync": "npx quartz sync --no-pull",
+    "old:build": "npx quartz build -d \"/d/Documenti/Obsidian Vaults/D&D - Il furto dei dragoni\"",
+    "old:serve": "npx quartz build -d \"/d/Documenti/Obsidian Vaults/D&D - Il furto dei dragoni\" --serve",
+    "build": "npx quartz build -d \"D&D - Il furto dei dragoni\"",
+    "serve": "npx quartz build -d=\"D&D - Il furto dei dragoni\" --serve"
   },
   "engines": {
     "npm": ">=9.3.1",

@@ -1,0 +1,1 @@
+![[WaterdeepTavers.jpeg]]![[WaterdeepTaverns2.jpeg]]
