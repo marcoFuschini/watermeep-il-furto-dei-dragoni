@@ -1,15 +1,14 @@
 {
-  "name": "@jackyzha0/quartz",
-  "description": "🌱 publish your digital garden and notes as a website",
+  "name": "watermeep-il-furto-dei-dragoni",
   "private": true,
   "version": "4.4.0",
   "type": "module",
-  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
+  "author": "Fusk",
   "license": "MIT",
-  "homepage": "https://quartz.jzhao.xyz",
+  "homepage": "https://www.google.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackyzha0/quartz.git"
+    "url": "https://github.com/marcoFuschini/watermeep-il-furto-dei-dragoni"
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
@@ -26,14 +25,7 @@
     "npm": ">=9.3.1",
     "node": "20 || >=22"
   },
-  "keywords": [
-    "site generator",
-    "ssg",
-    "digital-garden",
-    "markdown",
-    "blog",
-    "quartz"
-  ],
+  "keywords": [],
   "bin": {
     "quartz": "./quartz/bootstrap-cli.mjs"
   },
