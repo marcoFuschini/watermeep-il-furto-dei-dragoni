@@ -1,3 +1,7 @@
+---
+publish: false
+---
+
 ```leaflet 
 id: leaflet-map 
 image: [[Waterdeep_map.webp]] 

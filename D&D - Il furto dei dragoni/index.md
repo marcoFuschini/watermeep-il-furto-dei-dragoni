@@ -16,3 +16,7 @@ Come finirà questa storia?
 Non ci resta che scriverla insieme,  
 per scoprirlo.
 
+# Indice
+
+- [[NPC lista|Lista personaggi incontrati]]
+- [[Waterdeep - immagine|Mappa Waterdeep]]
