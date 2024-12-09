@@ -11,7 +11,7 @@ on:
 
 jobs:
   build-and-test:
-    if: ${{ github.repository == 'marcoFuschini/watermeep-il-furto-dei-dragoni' }}
+    if: ${{ github.repository == 'marcoFuschini/watermeep-il-furto-dei-dragoni' && github.ref == 'refs/heads/test-build' }}
     strategy:
       matrix:
         os: [windows-latest, macos-latest, ubuntu-latest]
